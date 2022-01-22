@@ -15,6 +15,7 @@ An implementation of a stopwatch using ATMega16 Microcontroller.
 - The clock supplied to the timer is of a prescaler value of 64.
 - In order for the timer to count and produce an interrupt every 1 second the value of the compare register is 0x3D08 (15624 clock):
   - This value is calculated as following:
+![Alt text here](https://github.com/khaledmust/AVR_Based_Stopwatch/blob/main/OCR_Calc.svg)
 
 - So every 1 second an interrupt is triggered resulting in the increment of the variable `seconds` in the ISR (Interrupt Service Routine), and the calculations of minutes and hours are done accordingly.
 
