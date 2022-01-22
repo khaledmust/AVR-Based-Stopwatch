@@ -1,4 +1,4 @@
-# AVR_Based_Stopwatch
+# AVR Based Stopwatch
 An implementation of a stopwatch using ATMega16 Microcontroller.
 
 - **Timer1** with **CTC** mode is used to count the stopwatch time.
