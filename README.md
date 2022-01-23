@@ -9,6 +9,7 @@ An implementation of a stopwatch using ATMega16 Microcontroller.
 - An external interrupt **INT0** with falling edge is used for the *reset* of the time.
 - An external interrupt **INT1** with rasing edge is used to *pause* the time.
 - An external interrupt **INT2** with falling edge is used to *resume* the time.
+- The simulation is done with Proteus Design Suite.
 
 ## Code explanation
 ### Timer1
