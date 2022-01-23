@@ -5,9 +5,9 @@
 /* Setting the CPU Frequency to 1MHz. */
 #define F_CPU 1000000
 
-unsigned char seconds	 = 0;
-unsigned char minutes	 = 0;
-unsigned char hours	 = 0;
+unsigned char seconds	= 0;
+unsigned char minutes	= 0;
+unsigned char hours	= 0;
 unsigned char pauseFlag = 0;
 
 /* Time count. */
